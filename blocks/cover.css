@@ -57,7 +57,7 @@
   }
 }
 
-.cover__contents__title {  
+.cover__contents-title {  
   margin: 0;
   font-size: 72px;
   line-height: 1.05;
@@ -65,13 +65,13 @@
 }
 
 @media screen and (max-width: 544px) {
-  .cover__contents__title {
+  .cover__contents-title {
     font-size: 32px;
     line-height: 1.1px;
   }
 }
 
-.cover__contents__subtitle {
+.cover__contents-info {
   margin: 0;
   line-height: 1.22;
   text-align: center;
@@ -79,17 +79,13 @@
 }
 
 @media screen and (max-width: 544px) {
-  .cover__contents__subtitle {
+  .cover__contents-info {
     font-size: 14px;
     line-height: 1.15;
   }
 }
 
-.cover__contents__subtitle-address {
-  margin: 0;
-}
-
-.cover__contents__tickets {
+.cover__contents-tickets {
   background-color: #0278fe;
   color: #fff;
   font-weight: 600;
@@ -101,7 +97,7 @@
   text-decoration: none;
 }
 
-.cover__contents__tickets:hover {
+.cover__contents-tickets:hover {
   background-color: #0063d2;
   cursor: pointer;
 }
