@@ -1,7 +1,7 @@
 .place {
     margin: 0;
-    display: grid; 
-    grid-template-areas: 
+    display: grid;
+    grid-template-areas:
     "title website"
     "image description"
     "nft description";
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 544px) {
     .place {
-        grid-template-areas: 
+        grid-template-areas:
         "title"
         "website"
         "image"
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 544px) {
     .place__title {
-        margin: 0 auto; 
+        margin: 0 auto;
         font-size: 32px;
         line-height: 1.1;
         width: 288px;
@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 544px) {
     .place__nft {
-        width: 288px; 
+        width: 288px;
         margin: 30px auto 0;
     }
 }

@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 544px) {
   .cover__contents {
-    row-gap: 16px; 
+    row-gap: 16px;
   }
 }
 
@@ -67,7 +67,7 @@
 @media screen and (max-width: 544px) {
   .cover__contents__title {
     font-size: 32px;
-    line-height: 1.1px; 
+    line-height: 1.1px;
   }
 }
 
