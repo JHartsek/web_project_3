@@ -1,0 +1,17 @@
+
+.website__url-heading {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    letter-spacing: 12%;
+    padding-bottom: 8px;
+}
+
+.website__artist {
+    margin: 0;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #fff;
+}

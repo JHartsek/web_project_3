@@ -1,0 +1,137 @@
+.place {
+    margin: 0;
+    display: grid; 
+    grid-template-areas: 
+    "title website"
+    "image description"
+    "nft description";
+}
+
+@media screen and (max-width: 544px) {
+    .place {
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "description"
+        "nft";
+    }
+}
+
+.place__title {
+    grid-area: title;
+    margin: 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.05;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 1.1;
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .place__title {
+        margin: 0 auto; 
+        font-size: 32px;
+        line-height: 1.1;
+        width: 288px;
+        padding-bottom: 30px;
+    }
+}
+
+.place__image {
+    grid-area: image;
+    padding: 48px 40px 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 340px;
+        padding: 46px 28px 48px 0;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .place__image {
+        max-width: 288px;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+.place__nft {
+    grid-area: nft;
+    margin: 0;
+    text-decoration: none;
+    line-height: 1.2;
+    width: 248px;
+    height: 48px;
+    background-color:#0278FE;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 544px) {
+    .place__nft {
+        width: 288px; 
+        margin: 30px auto 0;
+    }
+}
+
+.place__nft:hover {
+    background-color: #0063D2;
+    cursor: pointer;
+}
+
+.place__website {
+    grid-area: website;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:544px) {
+    .place__website {
+        margin: 0 auto;
+        width: 288px;
+        padding-bottom: 30px;
+    }
+}
+
+.place__paragraphs {
+    grid-area: description;
+    margin: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-top: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraphs {
+        font-size: 16px;
+        padding-top: 46px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .place__paragraphs {
+        padding-top: 30px;
+    }
+}
+
+.place__paragraphs-item {
+    margin: 0;
+}
