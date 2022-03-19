@@ -10,4 +10,5 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 **GitHub Pages**  
   
   The completed project can be found at the following address:
+  https://jhartsek.github.io/web_project_3/
   
