@@ -7,7 +7,7 @@
     max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .photo-grid {
         max-width: 720px;
         grid-template-rows: 1fr 1fr 1fr 1fr;
