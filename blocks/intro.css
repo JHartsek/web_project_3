@@ -77,11 +77,6 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro__text-author {
-    }
-}
-
 @media screen and (max-width: 544px) {
     .intro__text-author {
         max-width: 288px;
